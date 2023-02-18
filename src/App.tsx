@@ -9,7 +9,11 @@ const App: Component = () => {
     <div class={styles.App}>
       <div
         class="rainbow-text animated"
-        innerHTML={Splitting.html({ content: 'Rainbow Text', by: 'chars' })}
+        style={{ 'text-align': 'center' }}
+        innerHTML={Splitting.html({
+          content: 'Spark Joy Light Sign',
+          by: 'chars',
+        })}
       ></div>
     </div>
   );
