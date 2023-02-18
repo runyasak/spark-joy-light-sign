@@ -18,7 +18,7 @@ const App: Component = () => {
       <div class="absolute bottom-24 flex flex-col gap-4">
         <input
           type="text"
-          class="sign-text-input"
+          class="sign-text-input !bg-opacity-50"
           placeholder="Type your preview sign here..."
           value={signText()}
           onInput={(e) => setSignText(e.currentTarget.value)}
