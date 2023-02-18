@@ -14,6 +14,14 @@
   w-[50vw] text-center;
 }
 
+.actions-sector {
+  @apply absolute bottom-24 flex flex-col items-center gap-4;
+}
+
+:fullscreen .actions-sector {
+  @apply hidden;
+}
+
 .rainbow-text .char {
   font-size: 15vw;
   color: hsl(calc(360deg * var(--char-percent)), 90%, 65%);
