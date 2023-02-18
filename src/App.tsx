@@ -1,12 +1,10 @@
 import type { Component } from 'solid-js';
 
-import logo from './logo.svg';
-import styles from './App.module.css';
 import Splitting from 'splitting';
 
 const App: Component = () => {
   return (
-    <div class={styles.App}>
+    <div class="flex flex-col h-screen items-center justify-center bg-[#282c34] px-12">
       <div
         class="rainbow-text animated"
         style={{ 'text-align': 'center' }}
