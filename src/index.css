@@ -18,7 +18,12 @@
   @apply absolute bottom-24 flex flex-col items-center gap-4;
 }
 
-:fullscreen .actions-sector {
+.github-logo {
+  @apply w-6 absolute top-6 right-6;
+}
+
+:fullscreen .actions-sector,
+:fullscreen .github-logo {
   @apply hidden;
 }
 

@@ -13,7 +13,7 @@ const App: Component = () => {
   return (
     <div class="flex flex-col h-screen items-center justify-center bg-[#282c34] px-12 gap-8">
       <a
-        class="w-6 absolute top-6 right-6"
+        class="github-logo"
         target="_blank"
         rel="noopener"
         href="https://github.com/runyasak/spark-joy-light-sign"
