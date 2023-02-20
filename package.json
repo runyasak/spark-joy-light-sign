@@ -1,7 +1,7 @@
 {
   "name": "spark-joy-light-sign",
   "version": "0.0.0",
-  "description": "",
+  "description": "Spark Joy Light Sign",
   "scripts": {
     "start": "vite",
     "dev": "vite",

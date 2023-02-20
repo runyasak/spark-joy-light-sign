@@ -1,4 +1,10 @@
-## Usage
+# 🌈 🦄 Spark Joy Light Sign
+
+Spark Joy Light Sign generator on website. Powered by Solid.js.
+
+![Alt Text](https://github.com/runyasak/spark-joy-light-sign/tree/main/docs/demo.gif)
+
+## For development
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
 
