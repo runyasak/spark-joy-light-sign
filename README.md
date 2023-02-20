@@ -2,7 +2,7 @@
 
 Spark Joy Light Sign generator on website. Powered by Solid.js.
 
-![Alt Text](https://github.com/runyasak/spark-joy-light-sign/blob/main/docs/demo.gif)
+![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjE0YzhkYWEzMmVlOTkyNTMyY2FkNjEzZDYzMzEwNTllOWMzYTRkOSZjdD1n/5iYgbH2VszyARNQPo1/giphy.gif)
 
 ## For development
 
