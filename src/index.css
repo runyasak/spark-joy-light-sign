@@ -28,7 +28,7 @@
 }
 
 .rainbow-text .whitespace {
-  margin: 0 1rem;
+  @apply mx-1 md:mx-3 lg:mx-4 xl:mx-5 2xl:mx-6;
 }
 
 .rainbow-text.animated .char {
