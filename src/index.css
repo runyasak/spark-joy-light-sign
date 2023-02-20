@@ -28,6 +28,7 @@
 }
 
 .rainbow-text .char {
+  @apply font-bold;
   font-size: 15vw;
   color: hsl(calc(360deg * var(--char-percent)), 90%, 65%);
 }
