@@ -1,8 +1,6 @@
 /* @refresh reload */
 import { render } from 'solid-js/web';
 
-import 'splitting/dist/splitting.css';
-import 'splitting/dist/splitting-cells.css';
 import './index.css';
 import App from './App';
 
