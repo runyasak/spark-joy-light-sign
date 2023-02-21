@@ -27,35 +27,33 @@
   @apply hidden;
 }
 
-.rainbow-text .char {
-  @apply font-bold;
-  font-size: 15vw;
-  color: hsl(calc(360deg * var(--char-percent)), 90%, 65%);
+.rainbow-text {
+  --bg-size: 200%;
+  --color-one: hsl(0turn, 90%, 65%);
+  --color-two: hsl(0.25turn, 90%, 65%);
+  --color-three: hsl(0.5turn, 90%, 65%);
+  --color-four: hsl(0.75turn, 90%, 65%);
+  --color-five: hsl(1turn, 90%, 65%);
+
+  background: linear-gradient(
+      90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-three),
+      var(--color-four),
+      var(--color-five)
+    )
+    0 0 / var(--bg-size) 100%;
+
+  -webkit-background-clip: text;
+
+  animation: move-bg 2s infinite linear;
+
+  @apply font-bold text-transparent bg-clip-text text-[15vw];
 }
 
-.rainbow-text .whitespace {
-  @apply mx-1 md:mx-3 lg:mx-4 xl:mx-5 2xl:mx-6;
-}
-
-.rainbow-text.animated .char {
-  animation: rainbow-colors 1s linear infinite;
-  animation-delay: calc(-2s * var(--char-percent));
-}
-/* Unfortunately, browsers try to take the shortest distance between transition/animation properties, so a simple `0turn` to `1turn` doesn't get the proper effect. */
-@keyframes rainbow-colors {
-  0% {
-    color: hsl(0turn, 90%, 65%);
-  }
-  25% {
-    color: hsl(0.25turn, 90%, 65%);
-  }
-  50% {
-    color: hsl(0.5turn, 90%, 65%);
-  }
-  75% {
-    color: hsl(0.75turn, 90%, 65%);
-  }
-  100% {
-    color: hsl(1turn, 90%, 65%);
+@keyframes move-bg {
+  to {
+    background-position: var(--bg-size) 0;
   }
 }

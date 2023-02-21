@@ -1,11 +1,9 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/splitting': ^1.0.0
   autoprefixer: ^10.4.13
   postcss: ^8.4.21
   solid-js: ^1.6.10
-  splitting: ^1.0.6
   tailwindcss: ^3.2.7
   typescript: ^4.9.5
   vite: ^4.1.1
@@ -13,10 +11,8 @@ specifiers:
 
 dependencies:
   solid-js: 1.6.10
-  splitting: 1.0.6
 
 devDependencies:
-  '@types/splitting': 1.0.0
   autoprefixer: 10.4.13_postcss@8.4.21
   postcss: 8.4.21
   tailwindcss: 3.2.7_postcss@8.4.21
@@ -596,10 +592,6 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
-    dev: true
-
-  /@types/splitting/1.0.0:
-    resolution: {integrity: sha512-4S25wPUoCOVwgOoxPeyPQC3nzKVZl86cMvOJw4YwttS77uS4WOmZi9uuclXqEEZFk3d4XXATnSa89VAydtdKbA==}
     dev: true
 
   /acorn-node/1.8.2:
@@ -1196,10 +1188,6 @@ packages:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
     dev: true
-
-  /splitting/1.0.6:
-    resolution: {integrity: sha512-2hYicS/hTy1MgjTi4ST6B298uoLSx854VfTf0FeMmCeE6OiZjEixTOGPLqnNzSaM/y3jwoEYj5pmDzYFwRInPw==}
-    dev: false
 
   /supports-color/5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
