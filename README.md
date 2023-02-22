@@ -3,7 +3,7 @@
 Spark Joy Light Sign generator on website. Powered by Solid.js.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjIzYTAyY2U2NThiNWI3ZWEyN2Q4MzRkODhhNWEzNmEzMzVmNDY2MSZjdD1n/LumX9WfkZQBakobn6E/giphy.gif" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzYwZWMyNzg2ODhkM2I3MTkzMzVkOThlZWFkZGE0N2QwN2RlZjBiOCZjdD1n/TBT4PRC8bCbLIXVKdc/giphy.gif" />
 </p>
 
 ## For development
