@@ -40,3 +40,7 @@ Your app is ready to be deployed!
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+
+## Refs
+- [Rainbow text with Splitting](https://codepen.io/shshaw/pen/wZPGqN)
+- [Speedy CSS Tip! Animated Gradient Text](https://web.dev/speedy-css-tip-animated-gradient-text/)
